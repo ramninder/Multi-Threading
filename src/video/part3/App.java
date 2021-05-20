@@ -11,9 +11,9 @@ public class App {
 		app.doWork();
 	}
 
-	// Output should be 20000 but without syncronized key word it was different
+	// Output should be 20000 but without synchronized key word it was different
 	// because each thread was missing some processes.Syncronized add intrinsic lock
-	// on method until one thread finishes methos is not given to any other thread for use.
+	// on method until one thread finishes method is not given to any other thread for use.
 	public synchronized void increment() {
 		count++;
 	}
