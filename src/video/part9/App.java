@@ -1,6 +1,6 @@
-package video.part8;
+package video.part9;
 
-//Advanced Java: Multi-threading Part 8 - Wait and Notify
+//Advanced Java: Multi-threading Part 9 - A Worked Example Using Low-Level Synchronization
 public class App {
 	
 
